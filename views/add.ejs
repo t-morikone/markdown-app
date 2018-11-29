@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="content-type" content="text_html; charset=UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <head>
+      <h1><%= title %></h1>
+    </head>
+    <div role="main">
+      <form action="/add" method="post">
+      <table>
+        <tr><th>TITLE</th></tr>
+        <tr><td><input type="text" name="title" size="80"></td></tr>
+        <tr><th>CONTENT</th></tr>
+        <tr><td><textarea name="content" cols="80" rows="25"></textarea></td></tr>
+      </table>
+      </form>
+      <p><a href="/">&gt;&gt; Top へ戻る</a></p>
+    </div>
+  </body>
+
+</html>
